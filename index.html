@@ -1,23 +1,29 @@
-        <!DOCTYPE html>
+            <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital School Notice Board</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
       color: #333;
+      background-color: #ffffff;
+      line-height: 1.6;
     }
+
+    /* Header */
     header {
       background-color: #1e90ff;
       color: #fff;
       padding: 20px 0;
     }
+
     nav {
       width: 90%;
       margin: auto;
@@ -25,76 +31,142 @@
       justify-content: space-between;
       align-items: center;
     }
+
     nav a {
       color: #fff;
       text-decoration: none;
       margin: 0 15px;
       font-weight: 500;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
+    /* Hero Section */
     .hero {
       background-color: #f0f8ff;
       text-align: center;
       padding: 100px 20px;
     }
+
     .hero h1 {
-      font-size: 2.5em;
-      margin-bottom: 20px;
+      font-size: 3em;
       color: #1e90ff;
     }
+
     .hero p {
       font-size: 1.2em;
+      margin-top: 10px;
     }
+
+    /* Section Styling */
     .section {
       width: 90%;
       margin: 50px auto;
     }
+
+    /* Feature Boxes */
     .features {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: space-between;
     }
+
     .feature-box {
       background-color: #1e90ff;
-      color: #fff;
+      color: white;
       padding: 30px;
       flex: 1 1 45%;
       border-radius: 10px;
-      text-align: center;
       min-width: 250px;
+      text-align: center;
     }
+
     .feature-box h3 {
       margin-bottom: 15px;
     }
+
+    /* About Section */
+    .about {
+      background-color: #f9f9f9;
+      padding: 40px;
+      border-radius: 10px;
+    }
+
+    /* Notice Board */
+    .notice-board {
+      background-color: #fff7e6;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .notice {
+      background-color: #ffdd99;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .notice h4 {
+      margin: 0 0 10px 0;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      background-color: #eef7ff;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #aaa;
+      font-size: 16px;
+    }
+
+    .contact-form button {
+      background-color: #1e90ff;
+      color: white;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .contact-form button:hover {
+      background-color: #006fd1;
+    }
+
+    /* Footer */
     footer {
       background-color: #333;
-      color: #fff;
+      color: white;
       text-align: center;
       padding: 30px 0;
       margin-top: 50px;
     }
+
     footer a {
       color: #1e90ff;
       text-decoration: none;
     }
-    /* About Page Specific */
-    .about {
-      background-color: #f9f9f9;
-      padding: 50px 20px;
-      border-radius: 10px;
-    }
   </style>
 </head>
+
 <body>
 
-  <!-- Header / Navigation -->
+  <!-- HEADER -->
   <header>
     <nav>
-      <div class="logo"><h2>Digital Notice Board</h2></div>
-      <div class="nav-links">
+      <h2>Digital Notice Board</h2>
+      <div>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#notice">Notice Board</a>
@@ -103,48 +175,81 @@
     </nav>
   </header>
 
-  <!-- Home Page Hero Section -->
+  <!-- HOME PAGE -->
   <section class="hero" id="home">
-    <h1>Welcome to Your Digital School Notice Board</h1>
-    <p>Stay updated with all school events, announcements, and notices instantly!</p>
+    <h1>Welcome to Digital School Notice Board</h1>
+    <p>Your one-stop platform to stay updated with school announcements, events, and important notices.</p>
   </section>
 
-  <!-- Features Section -->
   <section class="section features">
     <div class="feature-box">
-      <h3>Real-Time Updates</h3>
-      <p>Get instant notifications for all important school announcements.</p>
+      <h3>Real-Time Alerts</h3>
+      <p>Instant access to all important school updates and notices.</p>
     </div>
-    <div class="feature-box">
-      <h3>Easy to Use</h3>
-      <p>User-friendly interface designed for students, teachers, and parents.</p>
-    </div>
+
     <div class="feature-box">
       <h3>Mobile Friendly</h3>
-      <p>Access notices anytime, anywhere on any device.</p>
+      <p>Works smoothly on mobile, tablet and desktop devices.</p>
     </div>
+
     <div class="feature-box">
       <h3>Eco-Friendly</h3>
-      <p>Reduce paper usage by moving your notices online.</p>
+      <p>Reduces paper waste with 100% digital notices.</p>
+    </div>
+
+    <div class="feature-box">
+      <h3>Easy Interface</h3>
+      <p>Simple layout designed for students, teachers, and parents.</p>
     </div>
   </section>
 
-  <!-- About Page Section -->
+  <!-- ABOUT PAGE -->
   <section class="section about" id="about">
-    <h2>About Our Digital Notice Board</h2>
+    <h2>About This Website</h2>
     <p>
-      Our digital notice board website is designed to make school communication faster, organized, and accessible. 
-      Teachers can post announcements, events, and results online, which students and parents can view anytime. 
-      It helps in reducing paper usage and ensures that important information reaches everyone instantly. 
-      Our platform is easy to use, mobile-friendly, and keeps your school community connected effectively.
+      This Digital Notice Board is designed to modernize school communication by providing instant access to 
+      all notices and announcements. It ensures that information reaches every student and teacher quickly 
+      without relying on physical notice boards. Our platform is mobile-friendly, easy to navigate, and helps 
+      reduce paper usage. Whether it's an exam notice, event update, or urgent announcement — everything is 
+      available in one place 24/7.
     </p>
   </section>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <p>Contact us: <a href="mailto:info@schoolnotice.com">info@schoolnotice.com</a></p>
-    <p>&copy; 2025 Digital School Notice Board. All rights reserved.</p>
+  <!-- NOTICE BOARD PAGE -->
+  <section class="section notice-board" id="notice">
+    <h2>Latest Notices</h2>
+
+    <div class="notice">
+      <h4>📢 School Annual Function – 25 November</h4>
+      <p>All students must report by 9 AM in the school auditorium.</p>
+    </div>
+
+    <div class="notice">
+      <h4>📢 PTM Scheduled – 30 November</h4>
+      <p>Parents are requested to attend the meeting from 8 AM to 1 PM.</p>
+    </div>
+
+    <div class="notice">
+      <h4>📢 Winter Vacations from 24 December</h4>
+      <p>School will reopen on 5 January.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT PAGE -->
+  <section class="section contact-form" id="contact">
+    <h2>Contact Us</h2>
+
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea rows="6" placeholder="Your Message"></textarea>
+    <button>Submit</button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contact: <a href="mailto:info@digitalnotice.com">info@digitalnotice.com</a></p>
+    <p>© 2025 Digital School Notice Board. All rights reserved.</p>
   </footer>
 
 </body>
-</html>
+              </html>
