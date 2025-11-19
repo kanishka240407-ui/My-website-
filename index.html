@@ -1,255 +1,77 @@
- !DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital School Notice Board</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
   <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      background-color: #ffffff;
-      line-height: 1.6;
-    }
-
-    /* Header */
-    header {
-      background-color: #1e90ff;
-      color: #fff;
-      padding: 20px 0;
-    }
-
-    nav {
-      width: 90%;
-      margin: auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    /* Hero Section */
-    .hero {
-      background-color: #f0f8ff;
-      text-align: center;
-      padding: 100px 20px;
-    }
-
-    .hero h1 {
-      font-size: 3em;
-      color: #1e90ff;
-    }
-
-    .hero p {
-      font-size: 1.2em;
-      margin-top: 10px;
-    }
-
-    /* Section Styling */
-    .section {
-      width: 90%;
-      margin: 50px auto;
-    }
-
-    /* Feature Boxes */
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: space-between;
-    }
-
-    .feature-box {
-      background-color: #1e90ff;
-      color: white;
-      padding: 30px;
-      flex: 1 1 45%;
-      border-radius: 10px;
-      min-width: 250px;
-      text-align: center;
-    }
-
-    .feature-box h3 {
-      margin-bottom: 15px;
-    }
-
-    /* About Section */
-    .about {
-      background-color: #f9f9f9;
-      padding: 40px;
-      border-radius: 10px;
-    }
-
-    /* Notice Board */
-    .notice-board {
-      background-color: #fff7e6;
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .notice {
-      background-color: #ffdd99;
-      padding: 15px 20px;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-
-    .notice h4 {
-      margin: 0 0 10px 0;
-    }
-
-    /* Contact Form */
-    .contact-form {
-      background-color: #eef7ff;
-      padding: 30px;
-      border-radius: 10px;
-    }
-
-    .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 6px;
-      border: 1px solid #aaa;
-      font-size: 16px;
-    }
-
-    .contact-form button {
-      background-color: #1e90ff;
-      color: white;
-      padding: 12px 20px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-      border-radius: 8px;
-      margin-top: 10px;
-    }
-
-    .contact-form button:hover {
-      background-color: #006fd1;
-    }
-
-    /* Footer */
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 30px 0;
-      margin-top: 50px;
-    }
-
-    footer a {
-      color: #1e90ff;
-      text-decoration: none;
-    }
+    body { margin:0; font-family:Arial; background:#f5f5f5; }
+    header { background:#111; color:#fff; padding:20px; text-align:center; font-size:24px; }
+    nav { background:#222; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 15px; text-decoration:none; font-size:18px; }
+    .section { padding:40px; max-width:800px; margin:auto; background:white; margin-top:20px; border-radius:10px; }
+    h2 { color:#222; }
   </style>
 </head>
-
 <body>
+  <header>My Professional Website</header>
 
-  <!-- HEADER -->
-  <header>
-    <nav>
-      <h2>Digital Notice Board</h2>
-      <div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#notice">Notice Board</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+  </nav>
 
   <!-- HOME PAGE -->
-  <section class="hero" id="home">
-    <h1>Welcome to Digital School Notice Board</h1>
-    <p>Your one-stop platform to stay updated with school announcements, events, and important notices.</p>
-  </section>
-
-  <section class="section features">
-    <div class="feature-box">
-      <h3>Real-Time Alerts</h3>
-      <p>Instant access to all important school updates and notices.</p>
-    </div>
-
-    <div class="feature-box">
-      <h3>Mobile Friendly</h3>
-      <p>Works smoothly on mobile, tablet and desktop devices.</p>
-    </div>
-
-    <div class="feature-box">
-      <h3>Eco-Friendly</h3>
-      <p>Reduces paper waste with 100% digital notices.</p>
-    </div>
-
-    <div class="feature-box">
-      <h3>Easy Interface</h3>
-      <p>Simple layout designed for students, teachers, and parents.</p>
-    </div>
-  </section>
-
-  <!-- ABOUT PAGE -->
-  <section class="section about" id="about">
-    <h2>About This Website</h2>
+  <section id="home" class="section">
+    <h2>Welcome to Our Website</h2>
     <p>
-      This Digital Notice Board is designed to modernize school communication by providing instant access to 
-      all notices and announcements. It ensures that information reaches every student and teacher quickly 
-      without relying on physical notice boards. Our platform is mobile-friendly, easy to navigate, and helps 
-      reduce paper usage. Whether it's an exam notice, event update, or urgent announcement — everything is 
-      available in one place 24/7.
+      Welcome to our professional platform! We have designed this website to help
+      students, creators, and learners access high‑quality resources, guidance,
+      and digital tools in one place. Our goal is to make your learning journey
+      easier, smarter, and more organized.
+    </p>
+    <p>
+      This website exists to provide clear knowledge, easy tutorials, helpful
+      explanations, and project support to anyone who wants to grow and create.
     </p>
   </section>
 
-  <!-- NOTICE BOARD PAGE -->
-  <section class="section notice-board" id="notice">
-    <h2>Latest Notices</h2>
-
-    <div class="notice">
-      <h4>📢 School Annual Function – 25 November</h4>
-      <p>All students must report by 9 AM in the school auditorium.</p>
-    </div>
-
-    <div class="notice">
-      <h4>📢 PTM Scheduled – 30 November</h4>
-      <p>Parents are requested to attend the meeting from 8 AM to 1 PM.</p>
-    </div>
-
-    <div class="notice">
-      <h4>📢 Winter Vacations from 24 December</h4>
-      <p>School will reopen on 5 January.</p>
-    </div>
+  <!-- ABOUT PAGE -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      We are dedicated to creating a simple, user‑friendly website that offers
+      valuable educational help. Whether it is academic projects, website ideas,
+      business plans, explanations of concepts, or creative work — we are here
+      to support you.
+    </p>
+    <p>
+      Our aim is to provide:<br>
+      ✔ Easy‑to‑understand explanations<br>
+      ✔ Ready‑made project support<br>
+      ✔ Website & business ideas<br>
+      ✔ Student‑focused learning content
+    </p>
   </section>
 
-  <!-- CONTACT PAGE -->
-  <section class="section contact-form" id="contact">
-    <h2>Contact Us</h2>
-
-    <input type="text" placeholder="Your Name">
-    <input type="email" placeholder="Your Email">
-    <textarea rows="6" placeholder="Your Message"></textarea>
-    <button>Submit</button>
+  <!-- SERVICES PAGE -->
+  <section id="services" class="section">
+    <h2>What We Provide</h2>
+    <p>
+      Here is everything we currently provide on this website:
+    </p>
+    <ul>
+      <li>✨ School & College Project Support</li>
+      <li>✨ Website Content & Idea Building</li>
+      <li>✨ Simple Notes & Concept Explanations</li>
+      <li>✨ Creative Business Ideas for Students</li>
+      <li>✨ Digital Guidance & Learning Help</li>
+    </ul>
+    <p>
+      Our goal is to keep adding more helpful features and make your study and
+      creativity easier.
+    </p>
   </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>Contact: <a href="mailto:info@digitalnotice.com">info@digitalnotice.com</a></p>
-    <p>© 2025 Digital School Notice Board. All rights reserved.</p>
-  </footer>
-
 </body>
-   </html>
+</html>
