@@ -1,2 +1,3 @@
 # My-website-
 Digital School Notice Board website created to display important school updates, events, and information for students.
+This website has been created to provide students with quick, organized, and reliable access to all important school notices in one place. Its main purpose is to ensure that no student misses any update due to scattered information on WhatsApp groups or classroom announcements. Through a clean and easy-to-use interface, students can instantly view the latest notices, upcoming events, and urgent alerts. This platform saves time, reduces confusion, and keeps every student informed and updated with just a single click.
