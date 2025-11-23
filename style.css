@@ -130,3 +130,64 @@ nav ul li a:hover, .active {
 .btn:hover {
     background: #e6b800;
     }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #222;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover,
+.active {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: white;
+    color: #4e54c8;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.purpose, .page-section {
+    padding: 40px;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
