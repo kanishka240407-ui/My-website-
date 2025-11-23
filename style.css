@@ -60,3 +60,73 @@ footer {
     text-align: center;
     padding: 15px;
   }
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+}
+nav .logo {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 18px;
+    transition: 0.3s;
+}
+nav ul li a:hover, .active {
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #141E30, #243B55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.btn {
+    padding: 12px 25px;
+    background: #ffcc00;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #e6b800;
+    }
