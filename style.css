@@ -1,11 +1,10 @@
-/* General */
+ji/* General */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background: #f4f4f4;
 }
-
 /* Navbar */
 .navbar {
     display: flex;
@@ -146,4 +145,28 @@ footer {
 
 .styled-table tr:nth-child(even) {
     background: #f2f2f2;
+    }
+/* QR CODE SECTION */
+.qr-section {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f7f7f7;
+}
+
+.qr-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.qr-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.qr-box img {
+    width: 200px;
+    height: 200px;
+    border: 8px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.15);
     }
